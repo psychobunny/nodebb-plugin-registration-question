@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-registration-question",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Question and Answer plugin for the NodeBB registration form",
   "main": "library.js",
   "repository": {
@@ -23,7 +23,7 @@
     "url": "https://github.com/psychobunny/nodebb-plugin-registration-question/issues"
   },
   "nbbpm": {
-    "compatibility": "^0.7.0 || ^0.8.0"
+    "compatibility": "^0.9.0"
   },
   "readmeFilename": "README.md"
 }
