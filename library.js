@@ -42,7 +42,7 @@ plugin.addCaptcha = function(params, callback) {
 };
 
 plugin.checkRegister = function(params, callback) {
-	var answer = meta.config['registration-question:answer'];
+	var answer = String(meta.config['registration-question:answer']);
 
 	if (answer.toLowerCase() !== params.req.body['registration-question'].toLowerCase()) {
 		callback({source: 'registration-question', message: 'wrong-answer'}, params);
