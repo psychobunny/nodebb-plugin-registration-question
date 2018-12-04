@@ -1,7 +1,7 @@
 "use strict";
 
-var plugin = {},
-	meta = module.parent.require('./meta');
+var plugin = {};
+var meta = require.main.require('./src/meta');
 
 plugin.init = function(params, callback) {
 	var app = params.router,
